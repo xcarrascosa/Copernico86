@@ -1,0 +1,54 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.inform"
+release to "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Copernico 86.gblorb"
+storyfile "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.inform\Build\output.ulx" include
+ifiction "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.inform\Metadata.iFiction" include
+cover "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.materials\Cover.jpg"
+picture 1 "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.materials\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "CEE5D8CF-43C3-4E45-9E43-3402C7A03508"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2020"
+placeholder [TITLE] = "Copérnico 86"
+placeholder [AUTHOR] = "Xavier Carrascosa"
+placeholder [BLURB] = "La nave colonizadora Copérnico 86 se consume en llamas mientras navega hacia un ignoto sol. El viaje en estado de hibernación del Dr. Stanislav Odengar se verá interrumpido para intentar salvar a la tripulación del fatal desenlace al que se aproxima."
+
+! Other material to release
+
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Copernico 86.gblorb.js"
+template path "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.materials\Templates"
+template path "C:\Users\xavie\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.inform\Build\output.ulx" to "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.materials\Release\interpreter\Copernico 86.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\xavie\Documents\Inform\Projects\Copernico 86.materials\Templates"
+template path "C:\Users\xavie\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line2739"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

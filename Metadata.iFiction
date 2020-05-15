@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>CEE5D8CF-43C3-4E45-9E43-3402C7A03508</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Copérnico 86</title>
+            <author>Xavier Carrascosa</author>
+            <headline>Una historia de supervivencia espacial</headline>
+            <genre>Sci-fi</genre>
+            <firstpublished>2020</firstpublished>
+            <description>La nave colonizadora Copérnico 86 se consume en llamas mientras navega hacia un ignoto sol. El viaje en estado de hibernación del Dr. Stanislav Odengar se verá interrumpido para intentar salvar a la tripulación del fatal desenlace al que se aproxima.</description>
+            <language>es</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>680</height>
+            <width>680</width>
+            <description>Copérnico 86</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2020-05-15</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2020-05-15</originated>
+        </colophon>
+        <glulx>
+            <serial>200515</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>
