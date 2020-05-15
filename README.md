@@ -1,4 +1,4 @@
-# Copernico86
+# Copérnico 86
 
 Una aventura de supervivencia espacial
 
